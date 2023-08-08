@@ -1,0 +1,107 @@
+header {
+    .nav {
+        padding-top: 1.5em;
+        background-color: rgb(39, 38, 38);
+        height: 6em;
+        width: 100%;
+        
+    }
+    .nav-img {
+        margin-top: -1em;
+        float: right;
+        width: 15em;
+        vertical-align: middle;
+    }
+    .links {
+        margin-right: 8px;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+
+        .links-li { 
+            float: left;
+        }
+        .links-a {
+            display: block;
+            width: 5em;
+            padding:10px;
+            margin: 0 5px;
+            background-color: #628b5e;
+            border: 1px dashed #333;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            &:hover {
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        }
+        .thisPage {
+            background-color: #455243;
+            &:hover {
+                background-color: #455243;
+                color: #f4f4f4;
+            }
+        }
+    }
+    .bucket {
+        width: 2.2em;
+        height: 2.2em;
+    }
+    .countBucket {
+        font-size: 20px;
+        float: left;
+        padding-left: 15px;
+    }
+}
+
+
+main {
+    margin-top: 2em;
+    margin-left: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    .main-first {
+        .title {
+            font-weight: bold;
+        }
+        .subtitle {
+            padding-top: 2%;
+        }
+        .subtitle2 {
+            padding-top: 2%;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+    }
+    .main-second {
+        margin-top: 2em;
+        .title {
+            font-weight: bold;
+            color: red;
+        }
+        .subtitle {
+            padding-top: 2%;
+        }
+        .subtitle2 {
+            padding-top: 2%;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+    }
+    .main-third {
+        margin-top: 2em;
+        .title {
+            font-weight: bold;
+            color: rgb(19, 124, 63);
+        }
+        .link {
+            text-decoration: none;
+            &:hover {
+                color: #5c0a6d;
+            }
+        }
+    }
+    
+}
+

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+header .nav {
+  padding-top: 1.5em;
+  background-color: rgb(39, 38, 38);
+  height: 6em;
+  width: 100%;
+}
+header .nav-img {
+  margin-top: -1em;
+  float: right;
+  width: 15em;
+  vertical-align: middle;
+}
+header .links {
+  margin-right: 8px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+header .links .links-li {
+  float: left;
+}
+header .links .links-a {
+  display: block;
+  width: 5em;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #628b5e;
+  border: 1px dashed #333;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+header .links .links-a:hover {
+  background-color: #333;
+  color: #f4f4f4;
+}
+header .links .thisPage {
+  background-color: #455243;
+}
+header .links .thisPage:hover {
+  background-color: #455243;
+  color: #f4f4f4;
+}
+header .bucket {
+  width: 2.2em;
+  height: 2.2em;
+}
+header .countBucket {
+  font-size: 20px;
+  float: left;
+  padding-left: 15px;
+}
+
+main .massage {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+main .product-img {
+  width: 12em;
+  height: 100%;
+  float: left;
+  gap: 1em;
+}
+main .orders {
+  margin-left: 10em;
+}
+main .orders .order1 {
+  border: rgb(124, 57, 157) solid 4px;
+  width: 80%;
+  height: 13em;
+  margin-top: 5px;
+}
+main .orders .order2 {
+  border: rgb(132, 143, 40) solid 4px;
+  width: 80%;
+  height: 13em;
+  margin-top: 5px;
+}
+main .orders .order3 {
+  border: rgb(77, 142, 180) solid 4px;
+  width: 80%;
+  height: 13em;
+  margin-top: 5px;
+}
+main .order-title {
+  font-weight: bold;
+  color: rgb(187, 206, 222);
+  font-family: "Times New Roman", Times, serif;
+}
+main .order-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+main .order-btn {
+  float: right;
+  border: none;
+  outline: none;
+  background-color: #36f478;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
+}
+main .order-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+main .priсeAndBtn {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+main .priсeAndBtn .order-priсe {
+  font-size: 18px;
+  font-weight: 600;
+  color: yellow;
+  margin-left: 10px;
+  margin-top: 5px;
+}/*# sourceMappingURL=bucket.css.map */

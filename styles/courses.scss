@@ -1,0 +1,115 @@
+header {
+    .nav {
+        padding-top: 1.5em;
+        background-color: rgb(39, 38, 38);
+        height: 6em;
+        width: 100%;
+        
+    }
+    .nav-img {
+        margin-top: -1em;
+        float: right;
+        width: 15em;
+        vertical-align: middle;
+    }
+    .links {
+        margin-right: 8px;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+
+        .links-li { 
+            float: left;
+        }
+        .links-a {
+            display: block;
+            width: 5em;
+            padding:10px;
+            margin: 0 5px;
+            background-color: #628b5e;
+            border: 1px dashed #333;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            &:hover {
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        }
+        .thisPage {
+            background-color: #455243;
+            &:hover {
+                background-color: #455243;
+                color: #f4f4f4;
+            }
+        }
+    }
+    .bucket {
+        width: 2.2em;
+        height: 2.2em;
+    }
+    .countBucket {
+        font-size: 20px;
+        float: left;
+        padding-left: 15px;
+    }
+}
+
+main {
+    .product {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5px;
+        
+        %product {
+            border: rgb(28, 46, 30) solid 4px;
+            width: 16.5em;
+            height: 16.5em;
+            
+        }
+        .product1 {
+            @extend %product;
+        }
+        .product2 {
+            @extend %product;
+        }
+        .product3 {
+            @extend %product;
+        }
+
+        .product-img {
+            width: max-content;
+            height: 70%;
+            
+        }
+        .product-title {
+            text-align: center;
+            font-size: 20px;
+        }
+        %button {
+            width: 100%;
+            height: 2em;
+            background-color: #95ad92;
+            color: #f4f4f4;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            border: none;
+            &:hover {
+                background-color: #2f3b2d;
+                color: #968c8c;
+            }
+        }
+        .product1-btn {
+            @extend %button;
+        }
+        .product2-btn {
+            @extend %button;
+        }
+        .product3-btn {
+            @extend %button;
+        }
+    }
+}

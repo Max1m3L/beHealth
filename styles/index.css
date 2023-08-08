@@ -1,0 +1,97 @@
+header .nav {
+  padding-top: 1.5em;
+  background-color: rgb(39, 38, 38);
+  height: 6em;
+  width: 100%;
+}
+header .nav-img {
+  margin-top: -1em;
+  float: right;
+  width: 15em;
+  vertical-align: middle;
+}
+header .links {
+  margin-right: 8px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+header .links .links-li {
+  float: left;
+}
+header .links .links-a {
+  display: block;
+  width: 5em;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #628b5e;
+  border: 1px dashed #333;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+header .links .links-a:hover {
+  background-color: #333;
+  color: #f4f4f4;
+}
+header .links .thisPage {
+  background-color: #455243;
+}
+header .links .thisPage:hover {
+  background-color: #455243;
+  color: #f4f4f4;
+}
+header .bucket {
+  width: 2.2em;
+  height: 2.2em;
+}
+header .countBucket {
+  font-size: 20px;
+  float: left;
+  padding-left: 15px;
+}
+
+main {
+  margin-top: 2em;
+  margin-left: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .main-first .title {
+  font-weight: bold;
+}
+main .main-first .subtitle {
+  padding-top: 2%;
+}
+main .main-first .subtitle2 {
+  padding-top: 2%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+main .main-second {
+  margin-top: 2em;
+}
+main .main-second .title {
+  font-weight: bold;
+  color: red;
+}
+main .main-second .subtitle {
+  padding-top: 2%;
+}
+main .main-second .subtitle2 {
+  padding-top: 2%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+main .main-third {
+  margin-top: 2em;
+}
+main .main-third .title {
+  font-weight: bold;
+  color: rgb(19, 124, 63);
+}
+main .main-third .link {
+  text-decoration: none;
+}
+main .main-third .link:hover {
+  color: #5c0a6d;
+}/*# sourceMappingURL=index.css.map */

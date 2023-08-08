@@ -1,0 +1,128 @@
+header {
+    .nav {
+        padding-top: 1.5em;
+        background-color: rgb(39, 38, 38);
+        height: 6em;
+        width: 100%;
+        
+    }
+    .nav-img {
+        margin-top: -1em;
+        float: right;
+        width: 15em;
+        vertical-align: middle;
+    }
+    .links {
+        margin-right: 8px;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+
+        .links-li { 
+            float: left;
+        }
+        .links-a {
+            display: block;
+            width: 5em;
+            padding:10px;
+            margin: 0 5px;
+            background-color: #628b5e;
+            border: 1px dashed #333;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            &:hover {
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        }
+        .thisPage {
+            background-color: #455243;
+            &:hover {
+                background-color: #455243;
+                color: #f4f4f4;
+            }
+        }
+    }
+    .bucket {
+        width: 2.2em;
+        height: 2.2em;
+    }
+    .countBucket {
+        font-size: 20px;
+        float: left;
+        padding-left: 15px;
+    }
+}
+
+main { 
+    .massage {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .product-img {
+        width: 12em;
+        height: 100%;
+        float: left;
+        gap: 1em;
+    }
+    .orders {
+        margin-left: 10em;
+        .order1 {
+            border: rgb(124, 57, 157) solid 4px;
+            width: 80%;
+            height: 13em;
+            margin-top: 5px;
+        }
+        .order2 {
+            border: rgb(132, 143, 40) solid 4px;
+            width: 80%;
+            height: 13em;
+            margin-top: 5px;
+    
+        }
+        .order3 {
+            border: rgb(77, 142, 180) solid 4px;
+            width: 80%;
+            height: 13em;
+            margin-top: 5px;
+    
+        }
+    }
+    .order-title {
+        font-weight: bold;
+        color: rgb(187, 206, 222);
+        font-family:'Times New Roman', Times, serif;
+    }
+    .order-subtitle {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .order-btn {
+        float: right;
+        border: none;
+        outline: none;
+        background-color: #36f478;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 18px;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+    .priсeAndBtn {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        .order-priсe {
+            font-size: 18px;
+            font-weight: 600;
+            color: yellow;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    }
+}
