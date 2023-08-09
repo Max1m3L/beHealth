@@ -102,6 +102,22 @@ main {
             }
         }
     }
-    
+    .reviews {
+        margin-top: 3em;
+        .title {
+            font-size: 22px;
+            font-style: italic;
+        }
+        .review {
+            border: #5c0a6d double 2px;
+            height: 7em;
+            width: 55%;
+            margin-top: 8px;
+        }
+        .review-user {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 3px;
+        }
+    }
 }
 

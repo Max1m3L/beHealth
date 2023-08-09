@@ -94,4 +94,21 @@ main .main-third .link {
 }
 main .main-third .link:hover {
   color: #5c0a6d;
+}
+main .reviews {
+  margin-top: 3em;
+}
+main .reviews .title {
+  font-size: 22px;
+  font-style: italic;
+}
+main .reviews .review {
+  border: #5c0a6d double 2px;
+  height: 7em;
+  width: 55%;
+  margin-top: 8px;
+}
+main .reviews .review-user {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3px;
 }/*# sourceMappingURL=index.css.map */
