@@ -69,25 +69,23 @@ main {
     }
     .orders {
         margin-left: 10em;
+        %orderStandart {
+            border-radius: 3px;
+            width: 80%;
+            height: 13.5em;
+            margin-top: 5px;
+        }
         .order1 {
             border: rgb(124, 57, 157) solid 4px;
-            width: 80%;
-            height: 13em;
-            margin-top: 5px;
+            @extend %orderStandart
         }
         .order2 {
             border: rgb(132, 143, 40) solid 4px;
-            width: 80%;
-            height: 13em;
-            margin-top: 5px;
-    
+            @extend %orderStandart
         }
         .order3 {
             border: rgb(77, 142, 180) solid 4px;
-            width: 80%;
-            height: 13em;
-            margin-top: 5px;
-    
+            @extend %orderStandart
         }
     }
     .order-title {
@@ -101,7 +99,6 @@ main {
         letter-spacing: 1px;
     }
     .order-btn {
-        float: right;
         border: none;
         outline: none;
         background-color: #36f478;
@@ -109,6 +106,7 @@ main {
         padding: 15px 32px;
         text-align: center;
         font-size: 18px;
+        
         &:hover {
             cursor: pointer;
             opacity: 0.8;
@@ -116,13 +114,13 @@ main {
     }
     .priсeAndBtn {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 80% 20%;
         .order-priсe {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 600;
             color: yellow;
             margin-left: 10px;
-            margin-top: 5px;
+            margin-top: 10px;
         }
     }
 }

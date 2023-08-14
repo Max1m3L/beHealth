@@ -9,6 +9,55 @@
     <link rel="stylesheet" href="../styles/health.css">
 </head>
 <body>
-    
+    <header>
+        <div class="nav">
+            <ul class="links">
+                <li class="links-li">
+                    <a class="links-a" href="./index.html">Главная</a>
+                </li>
+                <li class="links-li">
+                    <a class="links-a thisPage" href="./health.html">Здоровье</a>
+                </li>
+                <li class="links-li">
+                    <a class="links-a" href="./courses.html">Курсы</a>
+                </li>
+                <li class="links-li">
+                    <a class="links-a" href="./bucket.html">Корзина</a>
+                </li>
+                <li>
+                    <img class="bucket" src="../public/free-icon-shopping-cart-483283.png" alt="">
+                    <p class="countBucket"></p>
+                </li>
+            </ul>
+            <div class="nav-img">
+                <img class="nav-img" src="../public/beHealth.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <p class="massage">Тут вы можете расчитать для себя количество нужных организму вещей</p>
+        <hr class="hr">
+        <div class="calculators">
+            <div class="water-calc">
+                <p class="title">Ежедневная норма воды</p>
+                <input class="input-weight" type="number" placeholder="Ваш вес">
+                <div class="lifeStyleContainer">
+                    <p style="font-size: 20px;">Ваш образ жизни:</p>
+                    <select class="user-select-water">
+                        <option class="opt" value="passive">Более пасивный</option>
+                        <option class="opt" value="sport">Спортивный</option>
+                    </select>
+                </div>
+                <button class="user-btn-water">расчитать</button>
+                <p class="result-water"></p>
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="../functional/header.js"></script>
+    <script src="../functional/calculators.js"></script>
+
 </body>
 </html>

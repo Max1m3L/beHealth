@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+header {
+    .nav {
+        padding-top: 1.5em;
+        background-color: rgb(39, 38, 38);
+        height: 6em;
+        width: 100%;
+        
+    }
+    .nav-img {
+        margin-top: -1em;
+        float: right;
+        width: 15em;
+        vertical-align: middle;
+    }
+    .links {
+        margin-right: 8px;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+
+        .links-li { 
+            float: left;
+        }
+        .links-a {
+            display: block;
+            width: 5em;
+            padding:10px;
+            margin: 0 5px;
+            background-color: #628b5e;
+            border: 1px dashed #333;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            &:hover {
+                background-color: #333;
+                color: #f4f4f4;
+            }
+        }
+        .thisPage {
+            background-color: #455243;
+            &:hover {
+                background-color: #455243;
+                color: #f4f4f4;
+            }
+        }
+    }
+    .bucket {
+        width: 2.2em;
+        height: 2.2em;
+    }
+    .countBucket {
+        font-size: 20px;
+        float: left;
+        padding-left: 15px;
+    }
+}
+
+main {
+    .massage {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .calculators {
+        text-align: center;
+        .water-calc {
+            border: yellow solid;
+            border-radius: 10%;
+            padding: 15px;
+            margin-left: 25%;
+            margin-right: 25%;
+            .title {
+                font-size: 20px;
+                color: #6e50c0;
+                font-weight: bold;
+            }
+            .input-weight {
+                text-align: center;
+                display: block;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                list-style: none;
+                border-radius: 4px;
+                background-color: #fff;
+                color: #000;
+                font-size: 16px;
+                line-height: 1.25;
+                height: 3.5em;
+                transition: all 0.3s ease;
+            }
+            .user-select-water {
+                background: linear-gradient(to right, #0084ff, #02b8ff);
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                width: 60%;
+                font-weight: 600;
+                border: none;
+                .opt {
+                    color: #000;
+                    font-weight: 600;
+                    font-size: 1.2em;
+                } &:hover {
+                    cursor: pointer;
+                } &:active {
+                    color: #1e88e5;
+                    text-decoration: underline;
+                }
+            } &:focus {
+                box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+            }
+            .user-btn-water {
+                margin-top: 5px;
+                border: none;
+                outline: none;
+                background-color: #103a5c;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 18px;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+            .result-water {
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            } 
+        }
+    }
+}

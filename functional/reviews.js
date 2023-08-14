@@ -1,14 +1,8 @@
-// import axios from 'axios';
-
-
 const reviewUser1 = document.querySelector('.r-u1')
 const reviewUser2 = document.querySelector('.r-u2')
 const reviewUser3 = document.querySelector('.r-u3')
 const reviewUser4 = document.querySelector('.r-u4')
 
-// reviewUser1.innerHTML = axios.get('https://jsonplaceholder.typicode.com/users/1')
-//     .then(res => console.log(res))
-//     .catch(error => `пользователь не найден`)
 
 fetch('https://jsonplaceholder.typicode.com/users/2')
     .then(res => res.json())

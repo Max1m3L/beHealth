@@ -1,5 +1,12 @@
 {
-  "type":"commonjs",
+  "type": "module",
+  "name": "site",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "repository": "https://github.com/Max1m3L/beHealth",
+  "author": "Max1m <clashshow2000@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0"
   }
